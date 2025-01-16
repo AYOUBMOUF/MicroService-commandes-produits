@@ -21,3 +21,7 @@ zuul:
     produits-service:
       path: /produits/**
       serviceId: microservice-commande-produit
+logging:
+  level:
+    com.netflix.discovery: DEBUG
+    org.springframework.cloud.netflix.zuul: DEBUG
