@@ -30,6 +30,8 @@ management:
   endpoint:
     health:
       show-details: always
+    refresh:
+      enabled: true
 eureka:
   client:
     service-url:
